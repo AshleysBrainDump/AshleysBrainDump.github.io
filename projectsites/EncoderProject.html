@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title> Pommes! </title>
+        <link rel="stylesheet" href="../styles.css">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li class="Logo"><a href="../index.html">Logo</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../projects.html">Projects</a></li>
+                    <li><a href="../contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <h1>Projects</h1>
+            <h2>Encoder/Decoder</h2>
+        </header>
+        <section class="Projects">
+            <div> 
+                <figure>
+                    <img src="../pictures/CoderProject.png" alt="Website Project">
+                    <figcaption>Coder Project</figcaption>
+                </figure>
+            </div>
+        </section>
+        <section></section>
+        <section class="Projects">
+            <div class="TextBlock">
+                This is one of my latest projects. <br>
+                It's based on a cypher Invented in 8th Grade, <br>
+                That I call "Quersummenschrift", or translated <br>
+                from german, "The Quer Sum Cypher". <br>
+                <br>
+                <h3> The Quer Sum Cypher</h3>
+                It works by setting up a classic <b>Caesar Cypher</b> <br>
+                with all the relevant ASCII Character you might <br>
+                need and the according numbers. <br>
+                <br>
+                Here is an example with the Word "Hello": <br>
+                H -> 12 ; E -> 17 ; L -> 22 ; O -> 54 <br>
+                H E L L O -> 12 17 22 22 54 <br>
+                <br>
+                This cypher is then further encrypted using "Quersummen" <br>
+                <h4>"Quersummen", or "Sums of digits"</h4>
+                Lets say you have a number like 666. You would get the <br> 
+                "Quer Sum" of the number, by adding up each individual <br>
+                digit. In case of 666, this would look as follows: <br>
+                <br>
+                666 = 6 + 6 + 6 = 18 -> i.c. The "Quer Sum" of 666 is 18 <br>
+                <br>
+                How would this translate to the cypher though? <br>
+                Great question! Lets have a look: <br>
+                Our rudementary Caesar cypher utilizes Numbers as its <br>
+                assigned symbol. H -> 12, E -> 17 and so on. <br>
+                What we'll do now, is take one of those numbers, for <br>
+                example H -> 12, and think of all the possible <br>
+                Quer Sums for the Number 12. For Example: <br>
+                <br>
+                5052 -> 5 + 0 + 5 + 2 = 12 <br>
+                7113 -> 7 + 1 + 1 + 3 = 12 <br>
+                000000093 -> 7*0 + 9 + 3 = 12 <br>
+                And so on... <br>
+                <br>
+                What we have done right now, is disected the number 12 <br>
+                in a number of unique ways, that reverse engineered <br>
+                still equal 12. If we were to do this with all the <br>
+                letters, we would arrive at something like this: <br>
+                <br>
+                7113, 090611, 8530204, 770401111, 9009900900909 <br>
+                <br>
+                Which we could back decode into the numbers, and letters: <br>
+                <br>
+                7 + 1 + 1 + 3 = 12 -> H <br>
+                0 + 9 + 0 + 6 + 1 + 1 = 17 -> E <br>
+                8 + 5 + 3 + 0 + 2 + 0 + 4 = 22 -> L <br>
+                7 + 7 + 0 + 4 + 0 + 4*1 = 22 -> L <br>
+                6*9 + 7*0 = 54 -> O <br>
+                <br>
+                Which gives us back the Message "HELLO"! <br>
+                Now, its quite obvious how this cypher is better than <br>
+                for example the Caesar cypher. The mere fact that we can <br>
+                Present a Single letter in such an array of different <br>
+                Sums practucally nullifies any statistics Algorithms <br>
+                That look at the ammounts of different letters or <br>
+                symbols in the text, and now a lot of Humans will <br>
+                even think of something as obscure as a Sum of digits <br>
+                when met with an array of random numbers (For further <br>
+                confusion I recommend adding some Mathematical Operators <br>
+                in between). However, it is still very tideous to encode<br>
+                and decode messages in such a manner, especially <br>
+                considering that if you want best encryption levels, <br>
+                you should use at least two digit numbers as Sums. <br>
+                <h3>The Encoder / Decoder</h3>
+                Which leads me to my Program. The Quer Sum Encoder/Decoder <br>
+                is a program that I made to make it easier to use the <br>
+                Quersum Cypher. It has only a couple buttons, and the <br>
+                layout is intuitive enough. <br>
+                You can click the "Encode" button to convert your message <br>
+                from Letters to Sums, and "Decode" to convert Sums back <br>
+                into Letters. A .json file is used to store the initial <br>
+                Caesar cypher, which you can modify or replace in a <br>
+                separate Window, that you can access with the <br>
+                "Edit Cypher" button. A Technical Limitation is the fact <br>
+                that Spaces have to be replaced for underscores, because <br>
+                the program is insensitive to spaces. But at least you <br>
+                have the option to change the background by replacing the <br>
+                background.png file in the folder, with another 600x500px <br>
+                .png file with an identical name. <br>
+                <br>
+                <h3>Download Link</h3>
+                I am leaving the .zip file with the whole Program here: <br>
+                <br>
+                <a href="../inconspiquos.zip" download>42069 Encoder/Decoder Program V1</a> <br>
+                <br>
+                All you have to do is extract the Folder and open the <br>
+                .exe file inside. Leave the other stuff untouched. <br>
+                You won't find anything of Interest, aside from the <br>
+                changeable background.png and Icon.png.
+            </div>
+        </section>
+        <footer> footer footer footer footer footer footer footer footer footer</footer>
+    </body>
+</html>

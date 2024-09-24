@@ -1,0 +1,90 @@
+body {
+    background-color: aqua;
+    color: darkslategray;
+    font-family:'Courier New', Courier, monospace ;
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-color: aquamarine;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("pictures/HomeBanner.png");
+    height: 110px;
+    padding: 50px 20px;
+}
+header .Logo a{
+    background-image: url("pictures/Logo.png");
+    background-size: 40px;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -999999px;
+    position: relative;
+    top: -22px;
+}
+section {
+    background-color: beige;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    margin: 0 auto;
+}
+.HomepageText div {
+    background-color:peru;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 75px;
+    margin: auto;
+    text-align: center;
+}
+.Projects div {
+    margin: 0 auto;
+    height: auto;
+}
+.Projects figure {
+    background-color: rgb(255, 255, 186);
+    width: 300%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    position: relative;
+    left: -100px;
+}
+.Projects figure img {
+    width: 100%;
+}
+.Projects .TextBlock {
+    padding: 7px;
+    width: auto;
+    height: auto;
+} 
+
+div {
+    background-color: azure;
+    width: 100px;
+    height: 50px;
+    margin: 0 auto;
+}
+footer {
+    background-color: aliceblue;
+    padding: 10px 20px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    color: blue;
+}
