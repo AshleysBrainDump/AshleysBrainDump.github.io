@@ -6,3 +6,4 @@ Roadplan:
     2. [REDACTED] Project updates
     3. Add a Blog site on the Website
     4. Potentially upload my KOL project
+    5. Create a Social Media Platform (maybe)?

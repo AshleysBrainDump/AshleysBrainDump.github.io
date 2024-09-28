@@ -5,18 +5,27 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <style>
-        img {
+        .Pfp {
             max-width: 25%;
             max-height: 25%;
             float: right;
             padding: 7px;
+        }
+        .InfoCard {
+            padding: 7px 25px 7px 25px;
+            width: 555px;
+        }
+        .Cartridge {
+            float: Left;
+            width: 300px;
+            height: 300px;
+            text-align: center;
         }
     </style>
     <body>
         <header>
             <nav>
                 <ul>
-                    <li class="Logo"><a href="index.html">Logo</a></li>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="projects.html">Projects</a></li>
                     <li><a href="contact.html">Contact</a></li>
@@ -25,12 +34,19 @@
             <h1>HOME</h1>
         </header>
         <section>
+            <div class="Cartridge">
+                <h3> The Latest Blog</h3>
+                <p>
+                    test left
+                </p>
+            </div>
             <div>
                 <div>
-                    <img src="pictures/AshleyPFP300.png">
+                    <img class="Pfp" src="pictures/AshleyPFP300.png">
                 </div>
-                <div class="TextBlock">
+                <div class="InfoCard">
                     <p>
+                        <h3>Who am I?</h3>
                         This is me.<br>
                         Born in 2008, I am a Highschool Student with no experience <br>
                         whatsoever. This Website is a place to display my projects <br>
@@ -43,19 +59,11 @@
                     </p> 
                 </div>
             </div>
-        </section>
-        <section> <div class="TitleBlock"> <h2> <b> BLOG </b> </h2> </div> </section>
-        <section>
-            <div class="TextBlock">
-                <article>
-                    <h3>Blog Launch</h3>
-                    <p>Uploaded 28.9.24</p>
-                    <p>
-                        This is the Website. I am doing some small changes, like making this blogpost. <br>
-                        This is purely cosmetic right now, I want to add functionality later,
-                        when i learn how to use Javascript, but right now this will stay as a Placeholder.
-                    </p>
-                </article>
+            <div class="Cartridge">
+                <h3> The Latest Project </h3>
+                <p>
+                    test right
+                </p>
             </div>
         </section>
         <footer>
