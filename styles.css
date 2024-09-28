@@ -54,11 +54,6 @@ section {
     height: auto;
 } 
 
-.TextBlock {
-    padding: 7px 25px 7px 25px;
-    width: 555px;
-}
-
 .TitleBlock {
     background-color: rgb(164, 250, 250);
     width: 555px;
