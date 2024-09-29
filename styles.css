@@ -1,3 +1,25 @@
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    body, header, .Projects figure{
+        width: 100%;
+    }
+    .Projects div {
+        padding-bottom: 20px;
+    }
+    footer {
+        width: 100%;
+        height: 5%;
+    }
+    section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .Projects {
+        display: flex;
+        flex-direction: column; 
+    }
+  }
 body {
     background-color: aqua;
     color: darkslategray;
@@ -7,9 +29,6 @@ body {
 }
 header {
     background-color:rgb(205, 133, 63);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
     height: 75px;
     padding: 50px 20px;
 }
@@ -18,9 +37,48 @@ section {
     padding: 20px;
     display: flex;
     flex-direction: row;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
+
+div {
+    background-color: rgb(240, 255, 255);
+    width: auto;
     height: auto;
     margin: 0 auto;
 }
+
+footer {
+    background-color: aliceblue;
+    padding: 10px 20px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    color: blue;
+}
+
+.pictureDiv {
+    background-color: azure;
+    width: 100px;
+    height: 50px;
+    margin: 0 auto;
+}
+
 .HomepageText div {
     background-color:rgb(205, 133, 63);
     padding: 20px;
@@ -45,9 +103,7 @@ section {
     position: relative;
     left: -100px;
 }
-.Projects figure img {
-    width: 100%;
-}
+
 .Projects .TextBlock {
     padding: 7px;
     width: auto;
@@ -60,35 +116,4 @@ section {
     height: auto;
     text-align: center;
     padding: 7px;
-}
-
-div {
-    background-color: rgb(240, 255, 255);
-    width: auto;
-    height: auto;
-    margin: 0 auto;
-}
-
-.pictureDiv {
-    background-color: azure;
-    width: 100px;
-    height: 50px;
-    margin: 0 auto;
-}
-
-footer {
-    background-color: aliceblue;
-    padding: 10px 20px;
-}
-ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-li {
-    display: inline;
-    margin-right: 20px;
-}
-a {
-    color: blue;
 }
