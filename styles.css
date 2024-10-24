@@ -75,7 +75,6 @@ a {
 .pictureDiv {
     background-color: azure;
     width: 100px;
-    height: 50px;
     margin: 0 auto;
 }
 
@@ -91,7 +90,7 @@ a {
 }
 .Projects div {
     margin: 0 auto;
-    height: auto;
+    height: 0px;
 }
 .Projects figure {
     background-color: rgb(255, 255, 186);
@@ -99,9 +98,25 @@ a {
     text-align: center;
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 0;
     position: relative;
     left: -100px;
+}
+
+.Subproject figure {
+    background-color: rgb(255, 255, 186);
+    width: 600%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    position: relative;
+    left: -225px;
+}
+
+.Subproject div {
+    margin: 0 auto;
+    height: 0px;
 }
 
 .Projects .TextBlock {
